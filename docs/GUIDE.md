@@ -27,27 +27,27 @@ Chapters that should be read 2 or more times:
 - HTML Responsive
 - HTML Semantic
 
-[W3School Course](LINK)
+[W3School Course](https://www.w3schools.com/html/default.asp)
 
 ### Basic CSS
 
-[W3School Course](LINK)
+[W3School Course](https://www.w3schools.com/css/default.asp)
 
 ### CSS Box Model
 
-[Web DEV Course](Link)
+[Web DEV Course](https://web.dev/learn/css/box-model/)
 
 ### How to write organized HTML and CSS code?
 
-[Course](LINK)
+[Course](https://learn.shayhowe.com/advanced-html-css/performance-organization/)
 
 ### Responsive Websites
 
-[Course](LINK)
+[Course](https://www.freecodecamp.org/espanol/learn/2022/responsive-web-design)
 
 ### Basic JavaScript
 
-[W3School](LINK)
+[W3School](https://www.w3schools.com/js/default.asp)
 
 ### JavaScript Algorithms and Data Structures
 
@@ -68,7 +68,7 @@ Chapters that should be read 2 or more times:
 
 ### CSS UI Frameworks and Libraries
 
-[TailwindCSS](LINK)
+[TailwindCSS](https://tailwindcss.com/docs/installation)
 
 ### React JS First Approach
 
