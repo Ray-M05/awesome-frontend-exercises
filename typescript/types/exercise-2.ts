@@ -24,7 +24,6 @@ console.log(describeMyType(myObject));
     3. Create a new variable of type MyType with the updated structure and test the function again.
 */
 
-
 /* Exercise 2:
     1. Define two types: TypeA with a property a (string) and TypeB with a property b (number).
     2. Create a new type called IntersectionType that combines TypeA and TypeB using an intersection type.
@@ -33,8 +32,58 @@ console.log(describeMyType(myObject));
     5. Call the function with the variable and log the result.
 */
 
-export type IntersectionType = {}
+export type IntersectionType = {};
 
 export function describeIntersectionType(obj: IntersectionType) {
   return `Property a is ${obj.a} and Property b is ${obj.b}`;
 }
+
+/* Exercise 3:
+  1. Define an interface called MyInterface with three properties: prop1 (string), prop2 (number), and prop3 (boolean).
+  2. Create a function called describeMyInterface that takes an argument of type MyInterface and returns a string combining all three properties.
+  3. Create a variable(myInterfaceObject) of type MyInterface and assign values World for prop1, 100 to prop2 and true to prop3.
+  4. Call the function with the variable and log the result.
+*/
+
+export function describeMyInterface(obj: MyInterface): string {
+  return `Prop1 is ${obj.prop1}, Prop2 is ${obj.prop2}, and Prop3 is ${obj.prop3}`;
+}
+
+console.log(describeMyInterface(myInterfaceObject));
+
+/* Exercise 4:
+  1. Define a type called FullType with three properties: prop1 (string), prop2 (number), and prop3 (boolean).
+  2. Create a new type called ExcludedType that excludes the prop2 property from FullType using the Exclude utility type.
+  3. Write a function called describeExcludedType that takes an argument of type ExcludedType and returns a string combining the remaining properties.
+  4. Create a variable of type ExcludedType and assign values to  World for prop1 and true to prop3.
+  5. Call the function with the variable and log the result.
+*/
+
+export function describeExcludedType(obj: ExcludedType): string {
+  return `Prop1 is ${obj.prop1} and Prop3 is ${obj.prop3}`;
+}
+
+const excludedObject;
+
+console.log(describeExcludedType(excludedObject));
+
+/* Exercise 5:
+  1. Define a type called FullType with three properties: prop1 (string), prop2 (number), and prop3 (boolean).
+  2. Create a new type called OmittedType that omits the prop2 property from FullType using the Omit utility type.
+  3. Write a function called describeOmittedType that takes an argument of type OmittedType and returns a string combining the remaining properties.
+  4. Create a variable of type OmittedType and assign values to prop1 and prop3.
+  5. Call the function with the variable and log the result.
+*/
+
+type FullType = {
+};
+
+type OmittedType = {};
+
+export function describeOmittedType(obj: OmittedType): string {
+  return `Prop1 is ${obj.prop1} and Prop3 is ${obj.prop3}`;
+}
+
+const omittedObject: OmittedType
+
+console.log(describeOmittedType(omittedObject));

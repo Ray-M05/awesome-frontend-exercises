@@ -2,36 +2,36 @@
 
 The objective of this repository is to group a series of content about Frontend Preparation. This includes exercises and resources to help you improve your skills in HTML, CSS, JavaScript, TypeScript, and various frameworks.
 
+## How to Start
+
+1. **Install NodeJS**: Ensure you have NodeJS installed on your computer, preferably an LTS version > 18.
+2. **Clone the Repository**:
+    ```sh
+    git clone git@github.com:el-frontend/awesome-frontend-exercises.git
+    ```
+3. **Navigate to the Project Folder**:
+    ```sh
+    cd awesome-frontend-exercises
+    ```
+4. **Install Dependencies**:
+    ```sh
+    npm install
+    ```
+5. **Read the Guide**: Go to the folder that you want to learn and read the `GUIDE.md`.
+6. **Practice**: Work on the exercises provided.
+7. **Run Tests**: Some exercises include tests to check your solutions. To run the tests, use:
+    ```sh
+    npm run test
+    ```
+
 ## Folders
+
 - `html/`
-    - Basic HTML structure
-    - Forms and validation
-    - Semantic HTML
-    - Accessibility best practices
-
 - `css/`
-    - Flexbox and Grid layout
-    - Responsive design
-    - Animations and transitions
-    - Preprocessors (Sass, LESS)
-
 - `javascript/`
-    - DOM manipulation
-    - Event handling
-    - Asynchronous JavaScript (Promises, async/await)
-    - ES6+ features
-
 - `typescript/`
-    - Basic types and interfaces
-    - Classes and inheritance
-    - Generics
-
 - `framework/`
-    - React: Components, state, and props
-    - Angular: Modules, components, and services
-    - Vue: Directives, components, and Vuex
-    - Svelte: Reactive statements and stores
 
-    ## Contributing
+## Contributing
 
-    We welcome contributions! Please read our [Contributing Guide](CONTRIBUTING.md) to learn about our development process, how to propose bug fixes and improvements, and how to build and test your changes.
+We welcome contributions! Please read our [Contributing Guide](CONTRIBUTING.md) to learn about our development process, how to propose bug fixes and improvements, and how to build and test your changes.
